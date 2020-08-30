@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "原型模式", "原型模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "建造者模式", "建造者模式\建造者模式.csproj", "{31C8B31E-1154-413C-84A4-59902648BEC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法模板", "方法模板\方法模板.csproj", "{DB5A7F60-74AD-464C-AB91-DB32087A1A01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{31C8B31E-1154-413C-84A4-59902648BEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31C8B31E-1154-413C-84A4-59902648BEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31C8B31E-1154-413C-84A4-59902648BEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5A7F60-74AD-464C-AB91-DB32087A1A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5A7F60-74AD-464C-AB91-DB32087A1A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5A7F60-74AD-464C-AB91-DB32087A1A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5A7F60-74AD-464C-AB91-DB32087A1A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
