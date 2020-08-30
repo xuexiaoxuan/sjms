@@ -6,7 +6,10 @@ namespace 建造者模式
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Pen p = new Pen();
+            PersonThinBuilder pth = new PersonThinBuilder(new Graphics(), p);
+            PersonDirector pdThin = new PersonDirector(pth);
+            pdThin.CreatePerson();
         }
     }
 }
