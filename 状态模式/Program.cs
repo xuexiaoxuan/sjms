@@ -6,7 +6,12 @@ namespace 状态模式
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Context context = new Context(new ContextStateA());
+            context.Request();
+            context.Request();
+            context.Request();
+            context.Request();
+            Console.Read();
         }
     }
 }
