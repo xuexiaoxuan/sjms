@@ -17,7 +17,7 @@ namespace 观察者模式
         public override void Update()
         {
             observerState = subject.SubjectState;
-            Console.WriteLine("");
+            Console.WriteLine("观察者{0},新状态是{1}",name,observerState);
         }
         public ConcreteSubject Subject
         {
