@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "观察者模式", "观察�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象工厂", "抽象工厂\抽象工厂.csproj", "{68656E5D-0043-44A6-A2A5-0ECE2B9EB903}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式", "状态模式\状态模式.csproj", "{42472BB6-59BC-40EE-BDE1-44C9E74224AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{68656E5D-0043-44A6-A2A5-0ECE2B9EB903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68656E5D-0043-44A6-A2A5-0ECE2B9EB903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68656E5D-0043-44A6-A2A5-0ECE2B9EB903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42472BB6-59BC-40EE-BDE1-44C9E74224AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42472BB6-59BC-40EE-BDE1-44C9E74224AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42472BB6-59BC-40EE-BDE1-44C9E74224AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42472BB6-59BC-40EE-BDE1-44C9E74224AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
