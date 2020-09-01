@@ -21,11 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "方法模板", "方法模�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "外观模式", "外观模式\外观模式.csproj", "{F812ACD5-E1ED-40B6-A6FC-585F869830CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "观察者模式", "观察者模式\观察者模式.csproj", "{E23B3B8A-2C46-4DF1-8670-9031A4241C90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "观察者模式", "观察者模式\观察者模式.csproj", "{E23B3B8A-2C46-4DF1-8670-9031A4241C90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象工厂", "抽象工厂\抽象工厂.csproj", "{68656E5D-0043-44A6-A2A5-0ECE2B9EB903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "抽象工厂", "抽象工厂\抽象工厂.csproj", "{68656E5D-0043-44A6-A2A5-0ECE2B9EB903}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "状态模式", "状态模式\状态模式.csproj", "{42472BB6-59BC-40EE-BDE1-44C9E74224AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "状态模式", "状态模式\状态模式.csproj", "{42472BB6-59BC-40EE-BDE1-44C9E74224AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "适配器模式", "适配器模式\适配器模式.csproj", "{E6B1A219-7BCF-4ECC-B6FB-8ED51F19A339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{42472BB6-59BC-40EE-BDE1-44C9E74224AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42472BB6-59BC-40EE-BDE1-44C9E74224AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42472BB6-59BC-40EE-BDE1-44C9E74224AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B1A219-7BCF-4ECC-B6FB-8ED51F19A339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B1A219-7BCF-4ECC-B6FB-8ED51F19A339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B1A219-7BCF-4ECC-B6FB-8ED51F19A339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B1A219-7BCF-4ECC-B6FB-8ED51F19A339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
