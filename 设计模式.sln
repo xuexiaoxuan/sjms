@@ -27,17 +27,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "抽象工厂", "抽象工�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "状态模式", "状态模式\状态模式.csproj", "{42472BB6-59BC-40EE-BDE1-44C9E74224AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "适配器模式", "适配器模式\适配器模式.csproj", "{E6B1A219-7BCF-4ECC-B6FB-8ED51F19A339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "适配器模式", "适配器模式\适配器模式.csproj", "{E6B1A219-7BCF-4ECC-B6FB-8ED51F19A339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "备忘录模式", "备忘录模式\备忘录模式.csproj", "{627D1ADF-F25F-42B6-BD32-4C6D3F83B036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "备忘录模式", "备忘录模式\备忘录模式.csproj", "{627D1ADF-F25F-42B6-BD32-4C6D3F83B036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "组合模式", "组合模式\组合模式.csproj", "{68B24C50-2B0E-4D78-9682-466D3B53B49B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "组合模式", "组合模式\组合模式.csproj", "{68B24C50-2B0E-4D78-9682-466D3B53B49B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "迭代器模式", "迭代器模式\迭代器模式.csproj", "{53A82BF5-9D4A-4A2E-AC75-D2211758949C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "迭代器模式", "迭代器模式\迭代器模式.csproj", "{53A82BF5-9D4A-4A2E-AC75-D2211758949C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模式\单例模式.csproj", "{48C9B61E-50B3-475C-8EDE-A66C0B7FD92A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "单例模式", "单例模式\单例模式.csproj", "{48C9B61E-50B3-475C-8EDE-A66C0B7FD92A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "桥接模式", "桥接模式\桥接模式.csproj", "{582840FF-F979-42FF-840E-EA43137695A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "桥接模式", "桥接模式\桥接模式.csproj", "{582840FF-F979-42FF-840E-EA43137695A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "命令模式", "命令模式\命令模式.csproj", "{CB53526C-0823-46A2-8F07-230EA20523AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{582840FF-F979-42FF-840E-EA43137695A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{582840FF-F979-42FF-840E-EA43137695A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{582840FF-F979-42FF-840E-EA43137695A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB53526C-0823-46A2-8F07-230EA20523AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB53526C-0823-46A2-8F07-230EA20523AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB53526C-0823-46A2-8F07-230EA20523AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB53526C-0823-46A2-8F07-230EA20523AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
