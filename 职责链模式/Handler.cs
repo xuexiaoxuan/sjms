@@ -11,6 +11,18 @@ namespace 职责链模式
         {
             this.successor = successor;
         }
-        public abstract void HandleRequest(int request);
+        public void HandleRequest(int request)
+        {
+            if (BoolIs(request))
+            {
+                Console.WriteLine("{0}处理请求{1}", this.GetType().Name, request);
+            }
+            else if (successor != null)
+            {
+                successor.HandleRequest(request);
+            }
+        }
+        public abstract bool BoolIs(int request);
+        //public abstract void HandleRequest(int request);
     }
 }
